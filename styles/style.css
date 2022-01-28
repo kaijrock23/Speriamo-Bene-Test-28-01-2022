@@ -3,6 +3,16 @@
     height: 60px;
 }
 
+.btn-container input {
+    text-align: center;
+    margin-right: .3rem;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 3px;
+}
+
 .logo {
     font-size: 1rem;
     color: white;
@@ -15,9 +25,14 @@
 }
 
 .left-container {
-    height: 600px;
+    height: 917px;
     background-color: lightgray;
     width: 300px;
+}
+
+.link-container {
+    /* width: 100%; */
+    text-align: center;
 }
 
 .avatar {
@@ -31,11 +46,13 @@
 .user {
     color: white;
     margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
-.link {
+/* .link {
     margin: 1rem;
-}
+
+} */
 
 a {
     text-decoration: none;
@@ -44,26 +61,53 @@ a {
 
 .link:hover {
     background-color: gray;
-    width: 200px;
+}
+
+.card-container {
+    width: 100%;
+}
+
+.menu-bar {
+    color: white;
+    display: none;
 }
 
 .card {
     background-color: gray;
     width: 100px;
     height: 100px;
-    margin-top: 1rem;
-    margin: 1rem;
-    margin-left: 2rem;
+    margin: 1rem .6rem 0 0;
 }
 
-@media only screen and (min-width: 0) and (max-width: 960px) {
+/* .main-container {
+    width: 100%;
+} */
+
+.link {
+    margin: 2rem 0 0 0;
+}
+
+@media screen and (min-width: 0) and (max-width: 960px) {
+
+    .left-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 317px) {
 
     .wrapper {
         display: flex;
         flex-wrap: wrap;
+
     }
 
-    .card {
-        width: 100%;
+    .btn-container {
+        display: none;
+    }
+
+    .menu-bar {
+        display: inline;
+        margin-right: 1rem;
     }
 }

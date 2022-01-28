@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/util.css">
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://kit.fontawesome.com/11a8fc675b.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
@@ -18,16 +19,21 @@
             <div class="logo dflex">LOGO</div>
         </div>
         <div class="btn-container dflex">
-            <input type="text" class="input-field">
-            <input type="button" class="btn">
+            <input type="text" class="input-field" placeholder="search">
+            <button type="button" class="btn">Find</button>
+        </div>
+
+        <div class="menu-bar">
+            <i class="fas fa-bars"></i>
         </div>
     </header>
 
     <main class="main-container dflex">
-        <div class="left-container dflex columns align-center ">
-            <div class="avatar dflex align-center columns"></div>
-            <p class="user">USERNAME</p>
-
+        <div class="left-container dflex columns">
+            <div class="av-cont dflex align-center columns">
+                <div class="avatar"></div>
+                <p class="user">UserName</p>
+            </div>
             <div class="link-container dflex columns">
                 <a href="#" class="link">link</a>
                 <a href="#" class="link">link</a>
@@ -39,14 +45,11 @@
 
             <div class="empty"></div>
         </div>
-
-        <div class="wrapper">
-            <div class="card-container dflex just-cent">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
+        <div class="card-container dflex just-cent wrapper">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
         </div>
     </main>
 </body>
