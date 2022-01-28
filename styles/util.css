@@ -1,0 +1,31 @@
+.dflex {
+    display: flex;
+}
+
+.just-bet {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+}
+
+.just-end {
+    justify-content: end;
+}
+
+.just-ar {
+    justify-content: space-around;
+}
+
+.just-cent {
+    justify-content: center;
+}
